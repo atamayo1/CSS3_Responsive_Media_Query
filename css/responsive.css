@@ -1,0 +1,157 @@
+header, section, nav, footer, article{
+	display:block;
+	margin:0;
+	padding:0;
+}
+html, body, h1, h2, h3, h4, h5, h6, p{
+	margin:0;
+	padding:0;
+}
+html{
+	background:#fff;
+}
+body{
+	width:960px;
+	margin:0 auto;
+	background:#FF6;
+	font-family:Verdana, Geneva, sans-serif;
+}
+header{
+	height:90px;
+	background:#213F52;
+}
+article, aside{
+	background:#FCF7CD;
+}
+footer{
+	height:60px;
+	background:#213F52;
+	clear:both;
+}
+nav{
+	font-size:.8em;
+	color:#f2e3b6;
+ 	text-align: center;
+	padding-top:.5em;
+}
+/* Fuentes */
+h1{
+	font-size:2.2em;
+	color:#FCF7CD;
+ 	text-align: center;
+}
+h2{
+	font-size:1.8em;
+	color:#FCF7CD;
+ 	text-align: center;
+	padding-top:.2em;
+}
+h3{
+	font-size:.8em;
+	color:#f2e3b6;
+ 	text-align: center;
+	padding-top:.2em;
+}
+p{
+	font-size:1em;
+	padding-top:1em;
+	padding-left:1em;
+	padding-right:1em;
+}
+a{
+	font-size:0.8em;
+	color:#f2e3b6;
+	text-align: center;
+	padding-top:.6em;
+	text-decoration: none;
+	letter-spacing: 0.5em;
+}
+/*Clases*/
+#izq{
+	float:left;
+	width:600px;
+	height:460px;
+}
+#der{
+	float:right;
+	width:360px;
+	height:460px;
+}
+ul, li{
+	display:inline;
+}
+img{
+	float:left;
+	padding-right:1em;
+}
+.imgIzq{
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+	margin-bottom:1em;
+}
+/*Movil*/
+@media only screen and (max-width:480px){
+	body, article, aside{
+		width: 320px;
+	}
+	#izq{
+		clear: both;
+		width: 100%;
+		height: auto;
+	}
+	#der{
+		clear: both;
+		width: 100%;
+		height: auto;
+	}
+	img{
+		clear: both;
+		width: 290px;
+		margin-bottom: 10px;
+	}
+	h1{
+		font-size: 1.6em;
+	}
+	h2{
+		font-size: 1.4em;
+	}
+	p{
+		line-height: 1.5em;
+	}
+	nav{
+		font-size: 8em;
+		color:#f2e3b6;
+		text-align: left;
+		padding-top: 0.5em;
+	}
+	a{
+		text-align: left;
+		text-decoration:none;
+		letter-spacing: normal;
+	}
+}
+/*Tabletas*/
+@media only screen and (min-width:461px) and (max-width:768px) {
+	body, article, aside{
+		width: 80%;
+	}
+	#izq{
+		clear: both;
+		width: 100%;
+		height: auto;
+	}
+	#der{
+		clear: both;
+		width: 100%;
+		height: auto;
+	}
+}
+/*Pantalla*/
+@media only screen and (min-width:769px) {
+	body{
+		width: 960px;
+	}
+
+}
